@@ -55,7 +55,7 @@ export const translations = {
     },
     anbi: {
       title: 'ANBI Transparantie',
-      description: 'In het kader van onze status als Algemeen Nut Beogende Instelling (ANBI), publiceren wij hieronder alle verplichte gegevens.',
+      description: 'In het kader van onze (aangevraagde) status als Algemeen Nut Beogende Instelling (ANBI), publiceren wij hieronder alle verplichte gegevens.',
       institution: {
         title: 'Instelling',
         name: 'Statutaire naam',
@@ -164,7 +164,7 @@ export const translations = {
     },
     anbi: {
       title: 'ANBI Transparency',
-      description: 'As part of our status as a Public Benefit Organization (ANBI), we publish all mandatory information below.',
+      description: 'As part of our (requested) status as a Public Benefit Organization (ANBI), we publish all mandatory information below.',
       institution: {
         title: 'Institution',
         name: 'Legal name',
