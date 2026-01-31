@@ -28,7 +28,7 @@ export const ContactSection: React.FC = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("/images/hero-bg-society.jpg")',
+          backgroundImage: 'url("images/hero-bg-society.jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.15
