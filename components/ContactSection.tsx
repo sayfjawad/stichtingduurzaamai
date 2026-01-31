@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import { useLanguage } from '../LanguageContext';
+import contactBg from '../public/images/hero-bg-society.jpg';
 
 export const ContactSection: React.FC = () => {
   const { t } = useLanguage();
@@ -28,7 +29,7 @@ export const ContactSection: React.FC = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("images/hero-bg-society.jpg")',
+          backgroundImage: `url(${contactBg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.15

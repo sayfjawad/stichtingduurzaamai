@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
+import policyBg from '../public/images/hero-bg.jpg';
 
 export const PolicySection: React.FC = () => {
   const { t } = useLanguage();
@@ -11,7 +12,7 @@ export const PolicySection: React.FC = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("images/hero-bg.jpg")',
+          backgroundImage: `url(${policyBg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.15

@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
+import heroBg from '../public/images/hero-bg-amsterdam-clean.jpg';
 
 export const Hero: React.FC = () => {
   const { t } = useLanguage();
@@ -11,7 +12,7 @@ export const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("images/hero-bg-amsterdam-clean.jpg")',
+          backgroundImage: `url(${heroBg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.4
