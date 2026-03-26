@@ -61,6 +61,7 @@ export const translations = {
         name: 'Statutaire naam',
         rsin: 'RSIN / Fiscaal nummer',
         kvk: 'KvK nummer',
+        bank: 'Bankrekening (IBAN)',
         seat: 'Statutaire zetel',
         seatValue: 'Gemeente IJsselstein',
       },
@@ -87,6 +88,7 @@ export const translations = {
       infoTitle: 'Contactgegevens',
       address: 'Adres',
       email: 'E-mail',
+      bank: 'Bankrekening (IBAN)',
       form: {
         name: 'Naam',
         email: 'E-mailadres',
@@ -170,6 +172,7 @@ export const translations = {
         name: 'Legal name',
         rsin: 'RSIN / Tax number',
         kvk: 'Chamber of Commerce number',
+        bank: 'Bank Account (IBAN)',
         seat: 'Registered office',
         seatValue: 'Municipality of IJsselstein',
       },
@@ -196,6 +199,7 @@ export const translations = {
       infoTitle: 'Contact Details',
       address: 'Address',
       email: 'Email',
+      bank: 'Bank Account (IBAN)',
       form: {
         name: 'Name',
         email: 'Email address',

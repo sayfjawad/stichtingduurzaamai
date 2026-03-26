@@ -68,6 +68,15 @@ export const ContactSection: React.FC = () => {
                     <a href="mailto:sayf@multicode.nl" className="text-blue-600 hover:underline">sayf@multicode.nl</a>
                   </div>
                 </div>
+                <div className="flex items-start gap-4">
+                  <div className="bg-blue-100 p-3 rounded-lg text-blue-600">
+                    <i className="fas fa-university"></i>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900">{t.contact.bank}</h4>
+                    <p className="text-slate-600">NL84 ABNA 0152 4458 97</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

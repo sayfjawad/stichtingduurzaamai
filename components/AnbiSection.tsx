@@ -31,6 +31,10 @@ export const AnbiSection: React.FC = () => {
                 <dd className="text-slate-900 font-semibold">99418428</dd>
               </div>
               <div>
+                <dt className="text-slate-400 font-medium">{t.anbi.institution.bank}</dt>
+                <dd className="text-slate-900 font-semibold">NL84 ABNA 0152 4458 97</dd>
+              </div>
+              <div>
                 <dt className="text-slate-400 font-medium">{t.anbi.institution.seat}</dt>
                 <dd className="text-slate-900">{t.anbi.institution.seatValue}</dd>
               </div>
