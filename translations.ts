@@ -112,6 +112,10 @@ export const translations = {
     common: {
       name: 'Stichting Duurzaam AI',
     },
+    seo: {
+      description: 'Stichting Duurzaam AI zet zich in voor de veilige, ethische en duurzame inzet van kunstmatige intelligentie in Nederland en Europa.',
+      keywords: 'AI, Kunstmatige Intelligentie, Duurzaamheid, Ethiek, Nederland, Europa, Stichting, Verantwoorde AI',
+    },
   },
   en: {
     nav: {
@@ -222,6 +226,10 @@ export const translations = {
     },
     common: {
       name: 'Sustainable AI Foundation',
+    },
+    seo: {
+      description: 'Sustainable AI Foundation is committed to the safe, ethical and sustainable use of artificial intelligence in the Netherlands and Europe.',
+      keywords: 'AI, Artificial Intelligence, Sustainability, Ethics, Netherlands, Europe, Foundation, Responsible AI',
     },
   },
 };
