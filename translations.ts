@@ -7,6 +7,7 @@ export const translations = {
       goals: 'Doelstelling',
       policy: 'Beleidsplan',
       anbi: 'ANBI Informatie',
+      ambassadors: 'Ambassadeurs',
       contact: 'Contact',
     },
     hero: {
@@ -82,6 +83,10 @@ export const translations = {
         actualityText: 'Laatste update: januari 2026. Informatie wordt jaarlijks bijgewerkt.',
       },
     },
+    ambassadors: {
+      title: 'Onze Ambassadeurs',
+      description: 'Met trots presenteren wij onze ambassadeurs die zich inzetten voor onze missie en bijdragen aan de dialoog over verantwoorde AI.',
+    },
     contact: {
       title: 'Contact',
       description: 'Heeft u vragen over onze missie of wilt u samenwerken? Neem gerust contact met ons op via onderstaand formulier.',
@@ -122,6 +127,7 @@ export const translations = {
       goals: 'Objectives',
       policy: 'Policy Plan',
       anbi: 'ANBI Information',
+      ambassadors: 'Ambassadors',
       contact: 'Contact',
     },
     hero: {
@@ -196,6 +202,10 @@ export const translations = {
         actualityTitle: 'Actuality',
         actualityText: 'Last update: January 2026. Information is updated annually.',
       },
+    },
+    ambassadors: {
+      title: 'Our Ambassadors',
+      description: 'We are proud to present our ambassadors who are committed to our mission and contribute to the dialogue on responsible AI.',
     },
     contact: {
       title: 'Contact',

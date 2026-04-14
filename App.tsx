@@ -5,6 +5,7 @@ import { Hero } from './components/Hero';
 import { GoalSection } from './components/GoalSection';
 import { AnbiSection } from './components/AnbiSection';
 import { PolicySection } from './components/PolicySection';
+import { AmbassadorsSection } from './components/AmbassadorsSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { LanguageProvider } from './LanguageContext';
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Hero />
           <GoalSection />
           <PolicySection />
+          <AmbassadorsSection />
           <AnbiSection />
           <ContactSection />
         </main>

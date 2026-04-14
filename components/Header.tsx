@@ -11,6 +11,7 @@ export const Header: React.FC = () => {
   const navLinks = [
     { name: t.nav.goals, href: '#doelstelling' },
     { name: t.nav.policy, href: '#beleid' },
+    { name: t.nav.ambassadors, href: '#ambassadeurs' },
     { name: t.nav.anbi, href: '#anbi' },
     { name: t.nav.contact, href: '#contact' },
   ];
