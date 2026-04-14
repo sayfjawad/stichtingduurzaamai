@@ -19,7 +19,7 @@ export const ContactSection: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:sayf@multicode.nl?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Naam: ${formData.name}\nEmail: ${formData.email}\n\nBericht:\n${formData.message}`)}`;
+    const mailtoLink = `mailto:info@stichtingduurzaamai.nl?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Naam: ${formData.name}\nEmail: ${formData.email}\n\nBericht:\n${formData.message}`)}`;
     window.location.href = mailtoLink;
   };
 
@@ -65,7 +65,7 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900">{t.contact.email}</h4>
-                    <a href="mailto:sayf@multicode.nl" className="text-blue-600 hover:underline">sayf@multicode.nl</a>
+                    <a href="mailto:info@stichtingduurzaamai.nl" className="text-blue-600 hover:underline">info@stichtingduurzaamai.nl</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
