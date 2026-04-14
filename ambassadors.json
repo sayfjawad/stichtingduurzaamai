@@ -9,12 +9,20 @@
     }
   },
   {
-    "name": "Ali Sultan",
+    "name": "Ali Al-Jaberi",
     "image": "https://media.licdn.com/dms/image/v2/C5603AQH1e5K-okKT5Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1630596423584?e=1777507200&v=beta&t=5fOOg6ZV_-wLhzYr95UFlQxz618wt5NkENMAIevtDHM",
     "linkedin": "https://www.linkedin.com/in/ali-al-jaberi-83008686/",
     "roles": {
       "nl": "Moderator, TV-journalist en presenter. Public Speaking Coach.",
       "en": "Moderator, TV Journalist & Presenter, Public Speaking Coach"
+    },
+  {
+    "name": "Akeel Almosawi",
+    "image": "https://media.licdn.com/dms/image/v2/D4E03AQGPSBnTS2CXZw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673977474744?e=1777507200&v=beta&t=hGIBXNx4VyoR8o-BI04QmpqVaeDwYL2RkMOW55x_s-U",
+    "linkedin": "https://www.linkedin.com/in/akeel-almosawi/",
+    "roles": {
+      "nl": "Titels geven geen betekenis, getrouwd en vader",
+      "en": "Titles don't mean anything, husband and father"
     }
   }
 ]
