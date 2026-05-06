@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useLanguage } from '../LanguageContext';
 import contactBg from '../public/images/hero-bg-society.jpg';
@@ -19,13 +18,12 @@ export const ContactSection: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:info@stichtingduurzaamai.nl?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Naam: ${formData.name}\nEmail: ${formData.email}\n\nBericht:\n${formData.message}`)}`;
+    const mailtoLink = `mailto:info@stichtingduurzaamai.nl?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(\`\`Naam: ${formData.name}\nEmail: ${formData.email}\n\nBericht:\n${formData.message}\`\`)}`;
     window.location.href = mailtoLink;
   };
 
   return (
     <section id="contact" className="relative py-20 overflow-hidden scroll-mt-20">
-      {/* Background Image with Opacity */}
       <div 
         className="absolute inset-0 z-0"
         style={{
