@@ -46,14 +46,18 @@ export const ContactSection: React.FC = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-100 shadow-sm">
-              <h3 className="text-xl font-bold text-slate-900 mb-6">{t.contact.infoTitle}</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-6">
+                <span className="mr-2">📇</span> {t.contact.infoTitle}
+              </h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="bg-blue-100 p-3 rounded-lg text-blue-600">
                     <i className="fas fa-map-marker-alt"></i>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">{t.contact.address}</h4>
+                    <h4 className="font-semibold text-slate-900">
+                      <span className="mr-2">📍</span> Adres
+                    </h4>
                     <p className="text-slate-600">Doelenstraat 3 f, 3401DV IJsselstein</p>
                   </div>
                 </div>
@@ -62,7 +66,9 @@ export const ContactSection: React.FC = () => {
                     <i className="fas fa-envelope"></i>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">{t.contact.email}</h4>
+                    <h4 className="font-semibold text-slate-900">
+                      <span className="mr-2">✉️</span> E-mail
+                    </h4>
                     <a href="mailto:info@stichtingduurzaamai.nl" className="text-blue-600 hover:underline">info@stichtingduurzaamai.nl</a>
                   </div>
                 </div>
@@ -71,7 +77,9 @@ export const ContactSection: React.FC = () => {
                     <i className="fas fa-university"></i>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900">{t.contact.bank}</h4>
+                    <h4 className="font-semibold text-slate-900">
+                      <span className="mr-2">🏦</span> Bankrekening (IBAN)
+                    </h4>
                     <p className="text-slate-600">NL84 ABNA 0152 4458 97</p>
                   </div>
                 </div>
