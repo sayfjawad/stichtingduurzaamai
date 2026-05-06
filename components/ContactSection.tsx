@@ -24,7 +24,7 @@ export const ContactSection: React.FC = () => {
 
   return (
     <section id="contact" className="relative py-20 overflow-hidden scroll-mt-20">
-      <div 
+      <div
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url(${contactBg})`,
@@ -33,7 +33,7 @@ export const ContactSection: React.FC = () => {
           opacity: 0.15
         }}
       />
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">{t.contact.title}</h2>
@@ -56,7 +56,7 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900">
-                      <span className="mr-2">📍</span> Adres
+                      <span className="mr-2">📍🏠</span> Adres
                     </h4>
                     <p className="text-slate-600">Doelenstraat 3 f, 3401DV IJsselstein</p>
                   </div>
@@ -67,7 +67,7 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900">
-                      <span className="mr-2">✉️</span> E-mail
+                      <span className="mr-2">✉️📧</span> E‑mail
                     </h4>
                     <a href="mailto:info@stichtingduurzaamai.nl" className="text-blue-600 hover:underline">info@stichtingduurzaamai.nl</a>
                   </div>
@@ -78,7 +78,7 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900">
-                      <span className="mr-2">🏦</span> Bankrekening (IBAN)
+                      <span className="mr-2">🏦💳</span> Bankrekening (IBAN)
                     </h4>
                     <p className="text-slate-600">NL84 ABNA 0152 4458 97</p>
                   </div>
