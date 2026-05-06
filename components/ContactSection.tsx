@@ -18,7 +18,7 @@ export const ContactSection: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:info@stichtingduurzaamai.nl?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(\`\`Naam: ${formData.name}\\nEmail: ${formData.email}\\n\\nBericht:\\n${formData.message}\`\`)}`;
+    const mailtoLink = `mailto:info@stichtingduurzaamai.nl?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(new URLSearchParams({ 'Naam': formData.name, 'Email': formData.email, 'Bericht': formData.message }).toString())}`;
     window.location.href = mailtoLink;
   };
 
