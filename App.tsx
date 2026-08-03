@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { GoalSection } from './components/GoalSection';
+import { PublicationsSection } from './components/PublicationsSection';
 import { AnbiSection } from './components/AnbiSection';
 import { PolicySection } from './components/PolicySection';
 import { AmbassadorsSection } from './components/AmbassadorsSection';
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         <main className="flex-grow">
           <Hero />
           <GoalSection />
+          <PublicationsSection />
           <PolicySection />
           <AmbassadorsSection />
           <AnbiSection />

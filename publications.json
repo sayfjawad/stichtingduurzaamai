@@ -1,0 +1,18 @@
+[
+  {
+    "id": "training-ai-it-professionals-2026-09",
+    "type": "training",
+    "date": "2026-09-26",
+    "icon": "fa-graduation-cap",
+    "title": {
+      "nl": "Training: AI voor IT-professionals",
+      "en": "Training: AI for IT Professionals"
+    },
+    "description": {
+      "nl": "Praktijkgerichte eendaagse training voor IT-professionals die willen leren werken met AI-tools. Zaterdag 26 september 2026 in Ridderkerk.",
+      "en": "A hands-on, one-day training for IT professionals who want to get practical with AI tools. Saturday 26 September 2026 in Ridderkerk."
+    },
+    "link": "https://training.stichtingduurzaamai.nl",
+    "external": true
+  }
+]

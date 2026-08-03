@@ -5,6 +5,7 @@ export const translations = {
   nl: {
     nav: {
       goals: 'Doelstelling',
+      publications: 'Publicaties',
       policy: 'Beleidsplan',
       anbi: 'ANBI Informatie',
       ambassadors: 'Ambassadeurs',
@@ -29,6 +30,19 @@ export const translations = {
       statutoryTitle: 'Statutaire Tekst',
       statutoryText: '"De stichting heeft ten doel: het bevorderen van een duurzame en verantwoorde ontwikkeling van kunstmatige intelligentie (AI) in Nederland en Europa; het ondersteunen van burgers, bedrijven, onderwijsinstellingen en overheden bij de transitie naar een samenleving waarin AI een steeds grotere rol speelt; het bevorderen van kennisdeling, kruisbestuiving en samenwerking tussen individuen en organisaties die zich inzetten voor ethische, veilige en duurzame AI-toepassingen; het voorkomen van maatschappelijke ongelijkheid en verlies van werkgelegenheid door het stimuleren van opleiding, bijscholing en AI-geletterdheid."',
       source: 'Bron: Oprichtingsakte 06-01-2026',
+    },
+    publications: {
+      title: 'Publicaties & Aankondigingen',
+      description: 'Hier kondigen we onze trainingen, blogs en vlogs aan. Bekijk wat er nu speelt en wat er binnenkort verschijnt.',
+      ctaDefault: 'Meer informatie',
+      typeLabels: {
+        training: 'Training',
+        blog: 'Blog',
+        vlog: 'Vlog',
+        announcement: 'Aankondiging',
+      },
+      comingSoonTitle: 'Meer publicaties volgen',
+      comingSoonText: 'Binnenkort delen we hier ook blogs en vlogs over duurzame en verantwoorde AI. Hou deze plek in de gaten!',
     },
     policy: {
       title: 'Hoofdlijnen Beleidsplan',
@@ -125,6 +139,7 @@ export const translations = {
   en: {
     nav: {
       goals: 'Objectives',
+      publications: 'Publications',
       policy: 'Policy Plan',
       anbi: 'ANBI Information',
       ambassadors: 'Ambassadors',
@@ -149,6 +164,19 @@ export const translations = {
       statutoryTitle: 'Statutory Text',
       statutoryText: '"The foundation aims to: promote sustainable and responsible development of artificial intelligence (AI) in the Netherlands and Europe; support citizens, businesses, educational institutions and governments in the transition to a society in which AI plays an increasing role; promote knowledge sharing, cross-pollination and collaboration between individuals and organizations committed to ethical, safe and sustainable AI applications; prevent social inequality and job loss by stimulating education, upskilling and AI literacy."',
       source: 'Source: Deed of incorporation 06-01-2026',
+    },
+    publications: {
+      title: 'Publications & Announcements',
+      description: 'This is where we announce our trainings, blogs and vlogs. Check out what\'s happening now and what\'s coming soon.',
+      ctaDefault: 'Learn more',
+      typeLabels: {
+        training: 'Training',
+        blog: 'Blog',
+        vlog: 'Vlog',
+        announcement: 'Announcement',
+      },
+      comingSoonTitle: 'More publications coming soon',
+      comingSoonText: 'We\'ll soon be sharing blogs and vlogs about sustainable and responsible AI here too. Watch this space!',
     },
     policy: {
       title: 'Policy Plan Outlines',
