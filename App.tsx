@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { GoalSection } from './components/GoalSection';
 import { PublicationsSection } from './components/PublicationsSection';
+import { StatisticsSection } from './components/StatisticsSection';
 import { AnbiSection } from './components/AnbiSection';
 import { PolicySection } from './components/PolicySection';
 import { AmbassadorsSection } from './components/AmbassadorsSection';
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           <Hero />
           <GoalSection />
           <PublicationsSection />
+          <StatisticsSection />
           <PolicySection />
           <AmbassadorsSection />
           <AnbiSection />

@@ -6,6 +6,7 @@ export const translations = {
     nav: {
       goals: 'Doelstelling',
       publications: 'Publicaties',
+      statistics: 'Statistieken',
       policy: 'Beleidsplan',
       anbi: 'ANBI Informatie',
       ambassadors: 'Ambassadeurs',
@@ -43,6 +44,18 @@ export const translations = {
       },
       comingSoonTitle: 'Meer publicaties volgen',
       comingSoonText: 'Binnenkort delen we hier ook blogs en vlogs over duurzame en verantwoorde AI. Hou deze plek in de gaten!',
+    },
+    statistics: {
+      title: 'Statistieken',
+      description: 'Live cijfers over onze website en de training ‘AI voor IT-professionals’.',
+      hoofdwebsiteViews: 'Bezoeken hoofdwebsite',
+      trainingViews: 'Bezoeken trainingswebsite',
+      trainingRegistrations: 'Inschrijvingen training',
+      seatsRemaining: 'plekken nog vrij',
+      seatsFull: 'Vol',
+      loading: 'Statistieken laden...',
+      error: 'Statistieken konden niet worden geladen.',
+      cta: 'Bekijk alle trainingsstatistieken',
     },
     policy: {
       title: 'Hoofdlijnen Beleidsplan',
@@ -140,6 +153,7 @@ export const translations = {
     nav: {
       goals: 'Objectives',
       publications: 'Publications',
+      statistics: 'Statistics',
       policy: 'Policy Plan',
       anbi: 'ANBI Information',
       ambassadors: 'Ambassadors',
@@ -177,6 +191,18 @@ export const translations = {
       },
       comingSoonTitle: 'More publications coming soon',
       comingSoonText: 'We\'ll soon be sharing blogs and vlogs about sustainable and responsible AI here too. Watch this space!',
+    },
+    statistics: {
+      title: 'Statistics',
+      description: 'Live figures on our website and the ‘AI for IT Professionals’ training.',
+      hoofdwebsiteViews: 'Main website visits',
+      trainingViews: 'Training website visits',
+      trainingRegistrations: 'Training registrations',
+      seatsRemaining: 'seats remaining',
+      seatsFull: 'Full',
+      loading: 'Loading statistics...',
+      error: 'Could not load statistics.',
+      cta: 'View all training statistics',
     },
     policy: {
       title: 'Policy Plan Outlines',
