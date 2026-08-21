@@ -11,7 +11,8 @@ interface Publication {
   icon: string;
   title: { nl: string; en: string };
   description: { nl: string; en: string };
-  link: string;
+  image?: string;
+  link?: string;
   repo?: string;
   external?: boolean;
 }
@@ -33,6 +34,14 @@ export const PublicationsSection: React.FC = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {publications.map((pub) => (
             <div key={pub.id} className="group bg-white rounded-xl overflow-hidden border border-slate-100 hover:shadow-md transition-shadow flex flex-col">
+              {pub.image && (
+                <img
+                  src={pub.image}
+                  alt={pub.title[language]}
+                  loading="lazy"
+                  className="w-full h-44 object-cover"
+                />
+              )}
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex items-center justify-between mb-3">
                   <span className="inline-flex items-center gap-2 text-blue-600 text-xs font-bold uppercase tracking-wide">
@@ -45,28 +54,32 @@ export const PublicationsSection: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">{pub.title[language]}</h3>
                 <p className="text-sm text-slate-600 mb-4 flex-grow">{pub.description[language]}</p>
-                <div className="flex items-center gap-4">
-                  <a
-                    href={pub.link}
-                    target={pub.external ? '_blank' : undefined}
-                    rel={pub.external ? 'noopener noreferrer' : undefined}
-                    className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700 transition-colors"
-                  >
-                    {t.publications.ctaDefault}
-                    <i className="fas fa-arrow-right text-xs"></i>
-                  </a>
-                  {pub.repo && (
-                    <a
-                      href={pub.repo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-sm font-bold text-slate-500 hover:text-slate-700 transition-colors"
-                    >
-                      <i className="fab fa-github text-xs"></i>
-                      {t.publications.sourceCta}
-                    </a>
-                  )}
-                </div>
+                {(pub.link || pub.repo) && (
+                  <div className="flex items-center gap-4">
+                    {pub.link && (
+                      <a
+                        href={pub.link}
+                        target={pub.external ? '_blank' : undefined}
+                        rel={pub.external ? 'noopener noreferrer' : undefined}
+                        className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700 transition-colors"
+                      >
+                        {t.publications.ctaDefault}
+                        <i className="fas fa-arrow-right text-xs"></i>
+                      </a>
+                    )}
+                    {pub.repo && (
+                      <a
+                        href={pub.repo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-sm font-bold text-slate-500 hover:text-slate-700 transition-colors"
+                      >
+                        <i className="fab fa-github text-xs"></i>
+                        {t.publications.sourceCta}
+                      </a>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
           ))}

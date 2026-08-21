@@ -1,5 +1,20 @@
 [
   {
+    "id": "ai-kennisbootcamp-ardennen-2026-08",
+    "type": "blog",
+    "date": "2026-08-21",
+    "icon": "fa-users",
+    "title": {
+      "nl": "AI-kennisbootcamp in de Ardennen: twintig professionals delen kennis",
+      "en": "AI knowledge bootcamp in the Ardennes: twenty professionals share knowledge"
+    },
+    "description": {
+      "nl": "Stichting Duurzaam AI bracht twintig IT-professionals samen voor een kennisdeling-bootcamp in de Ardennen. Een weekend lang deelden developers, security-specialisten, data-experts en architecten kennis over agentic AI, vibe coding en de impact van AI op ons werk — met 'begin klein' als belangrijkste les. Zo vergroot de stichting AI-kennis: door mensen bij elkaar te brengen en kennis te laten stromen.",
+      "en": "Stichting Duurzaam AI brought twenty IT professionals together for a knowledge-sharing bootcamp in the Ardennes. Over a weekend, developers, security specialists, data experts and architects shared knowledge about agentic AI, vibe coding and the impact of AI on our work — with 'start small' as the key takeaway. This is how the foundation grows AI knowledge: by bringing people together and letting knowledge flow."
+    },
+    "image": "/images/ardennen-ai-bootcamp.jpg"
+  },
+  {
     "id": "slimme-gemeente-assistent-2026-08",
     "type": "announcement",
     "date": "2026-08-21",
