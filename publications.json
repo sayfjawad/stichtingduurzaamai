@@ -1,5 +1,21 @@
 [
   {
+    "id": "slimme-gemeente-assistent-2026-08",
+    "type": "announcement",
+    "date": "2026-08-21",
+    "icon": "fa-university",
+    "title": {
+      "nl": "Slimme Gemeente Assistent: verantwoorde AI voor burgers",
+      "en": "Smart Municipality Assistant: responsible AI for citizens"
+    },
+    "description": {
+      "nl": "Stichting Duurzaam AI lanceert de Slimme Gemeente Assistent — een AI-toepassing die vragen van burgers over hun gemeente beantwoordt op basis van officiële pagina's en documenten, met een bronverwijzing bij elke bewering. Een praktijkvoorbeeld van hoe wij AI maatschappelijk verantwoord inzetten: overheidsinformatie begrijpelijk en toegankelijk maken voor iedereen, zonder winstoogmerk.",
+      "en": "Stichting Duurzaam AI launches the Smart Municipality Assistant — an AI application that answers citizens' questions about their municipality based on official pages and documents, with a citation for every claim. A practical example of how we use AI in a socially responsible way: making government information understandable and accessible for everyone, without profit motive."
+    },
+    "link": "https://gemeente.stichtingduurzaamai.nl",
+    "external": true
+  },
+  {
     "id": "training-ai-it-professionals-2026-09",
     "type": "training",
     "date": "2026-09-26",
