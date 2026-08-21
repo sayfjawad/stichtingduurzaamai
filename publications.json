@@ -9,8 +9,8 @@
       "en": "Smart Municipality Assistant: responsible AI for citizens"
     },
     "description": {
-      "nl": "Stichting Duurzaam AI lanceert de Slimme Gemeente Assistent — een AI-toepassing die vragen van burgers over hun gemeente beantwoordt op basis van officiële pagina's en documenten, met een bronverwijzing bij elke bewering. Een praktijkvoorbeeld van hoe wij AI maatschappelijk verantwoord inzetten: overheidsinformatie begrijpelijk en toegankelijk maken voor iedereen, zonder winstoogmerk.",
-      "en": "Stichting Duurzaam AI launches the Smart Municipality Assistant — an AI application that answers citizens' questions about their municipality based on official pages and documents, with a citation for every claim. A practical example of how we use AI in a socially responsible way: making government information understandable and accessible for everyone, without profit motive."
+      "nl": "Stichting Duurzaam AI lanceert de Slimme Gemeente Assistent: een AI-toepassing die vragen van burgers over hun gemeente beantwoordt op basis van officiële pagina's en documenten, met een bronverwijzing bij elke bewering. De code is open source (github.com/sayfjawad/gemeente-search). De eerste gemeenten zijn sinds augustus 2026 aangesloten — onder meer IJsselstein, Nieuwegein, Vijfheerenlanden, Utrecht en Houten. Een praktijkvoorbeeld van maatschappelijk verantwoorde AI, zonder winstoogmerk.",
+      "en": "Stichting Duurzaam AI launches the Smart Municipality Assistant: an AI application that answers citizens' questions about their municipality based on official pages and documents, with a citation for every claim. The code is open source (github.com/sayfjawad/gemeente-search). The first municipalities — including IJsselstein, Nieuwegein, Vijfheerenlanden, Utrecht and Houten — have been onboarded since August 2026. A practical example of socially responsible AI, without profit motive."
     },
     "link": "https://gemeente.stichtingduurzaamai.nl",
     "external": true
