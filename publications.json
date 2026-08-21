@@ -9,10 +9,11 @@
       "en": "Smart Municipality Assistant: responsible AI for citizens"
     },
     "description": {
-      "nl": "Stichting Duurzaam AI lanceert de Slimme Gemeente Assistent: een AI-toepassing die vragen van burgers over hun gemeente beantwoordt op basis van officiële pagina's en documenten, met een bronverwijzing bij elke bewering. De code is open source (github.com/sayfjawad/gemeente-search). De eerste gemeenten zijn sinds augustus 2026 aangesloten — onder meer IJsselstein, Nieuwegein, Vijfheerenlanden, Utrecht en Houten. Een praktijkvoorbeeld van maatschappelijk verantwoorde AI, zonder winstoogmerk.",
-      "en": "Stichting Duurzaam AI launches the Smart Municipality Assistant: an AI application that answers citizens' questions about their municipality based on official pages and documents, with a citation for every claim. The code is open source (github.com/sayfjawad/gemeente-search). The first municipalities — including IJsselstein, Nieuwegein, Vijfheerenlanden, Utrecht and Houten — have been onboarded since August 2026. A practical example of socially responsible AI, without profit motive."
+      "nl": "Stichting Duurzaam AI lanceert de Slimme Gemeente Assistent: een AI-toepassing die vragen van burgers over hun gemeente beantwoordt op basis van officiële pagina's en documenten, met een bronverwijzing bij elke bewering. De code is open source. De eerste gemeenten zijn sinds augustus 2026 aangesloten — onder meer IJsselstein, Nieuwegein, Vijfheerenlanden, Utrecht en Houten. Een praktijkvoorbeeld van maatschappelijk verantwoorde AI, zonder winstoogmerk.",
+      "en": "Stichting Duurzaam AI launches the Smart Municipality Assistant: an AI application that answers citizens' questions about their municipality based on official pages and documents, with a citation for every claim. The code is open source. The first municipalities — including IJsselstein, Nieuwegein, Vijfheerenlanden, Utrecht and Houten — have been onboarded since August 2026. A practical example of socially responsible AI, without profit motive."
     },
     "link": "https://gemeente.stichtingduurzaamai.nl",
+    "repo": "https://github.com/sayfjawad/gemeente-search",
     "external": true
   },
   {

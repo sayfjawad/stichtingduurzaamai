@@ -36,6 +36,7 @@ export const translations = {
       title: 'Publicaties & Aankondigingen',
       description: 'Hier kondigen we onze trainingen, blogs en vlogs aan. Bekijk wat er nu speelt en wat er binnenkort verschijnt.',
       ctaDefault: 'Meer informatie',
+      sourceCta: 'Open source',
       typeLabels: {
         training: 'Training',
         blog: 'Blog',
@@ -183,6 +184,7 @@ export const translations = {
       title: 'Publications & Announcements',
       description: 'This is where we announce our trainings, blogs and vlogs. Check out what\'s happening now and what\'s coming soon.',
       ctaDefault: 'Learn more',
+      sourceCta: 'Open source',
       typeLabels: {
         training: 'Training',
         blog: 'Blog',

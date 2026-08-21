@@ -12,6 +12,7 @@ interface Publication {
   title: { nl: string; en: string };
   description: { nl: string; en: string };
   link: string;
+  repo?: string;
   external?: boolean;
 }
 
@@ -44,15 +45,28 @@ export const PublicationsSection: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">{pub.title[language]}</h3>
                 <p className="text-sm text-slate-600 mb-4 flex-grow">{pub.description[language]}</p>
-                <a
-                  href={pub.link}
-                  target={pub.external ? '_blank' : undefined}
-                  rel={pub.external ? 'noopener noreferrer' : undefined}
-                  className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700 transition-colors"
-                >
-                  {t.publications.ctaDefault}
-                  <i className="fas fa-arrow-right text-xs"></i>
-                </a>
+                <div className="flex items-center gap-4">
+                  <a
+                    href={pub.link}
+                    target={pub.external ? '_blank' : undefined}
+                    rel={pub.external ? 'noopener noreferrer' : undefined}
+                    className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700 transition-colors"
+                  >
+                    {t.publications.ctaDefault}
+                    <i className="fas fa-arrow-right text-xs"></i>
+                  </a>
+                  {pub.repo && (
+                    <a
+                      href={pub.repo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm font-bold text-slate-500 hover:text-slate-700 transition-colors"
+                    >
+                      <i className="fab fa-github text-xs"></i>
+                      {t.publications.sourceCta}
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}
