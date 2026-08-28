@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
           <div className="flex flex-wrap gap-4 mb-10">
             <a 
               href="#doelstelling" 
-              className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg font-bold hover:bg-blue-700 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center px-6 py-3 bg-emerald-600 text-white rounded-lg font-bold hover:bg-emerald-700 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
             >
               {t.hero.ctaGoals}
               <i className="fas fa-arrow-right ml-2 text-sm opacity-80"></i>
@@ -46,13 +46,13 @@ export const Hero: React.FC = () => {
 
           <div className="flex flex-wrap gap-4">
             <div className="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full text-sm font-medium text-slate-700 border border-slate-100 shadow-sm">
-              <i className="fas fa-check-circle text-blue-600"></i> {t.hero.badgeNonProfit}
+              <i className="fas fa-check-circle text-emerald-600"></i> {t.hero.badgeNonProfit}
             </div>
             <div className="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full text-sm font-medium text-slate-700 border border-slate-100 shadow-sm">
-              <i className="fas fa-check-circle text-blue-600"></i> {t.hero.badgeMission}
+              <i className="fas fa-check-circle text-emerald-600"></i> {t.hero.badgeMission}
             </div>
             <div className="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full text-sm font-medium text-slate-700 border border-slate-100 shadow-sm">
-              <i className="fas fa-check-circle text-blue-600"></i> {t.hero.badgeTransparent}
+              <i className="fas fa-check-circle text-emerald-600"></i> {t.hero.badgeTransparent}
             </div>
           </div>
         </div>

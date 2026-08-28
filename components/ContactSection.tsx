@@ -51,7 +51,7 @@ export const ContactSection: React.FC = () => {
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="bg-blue-100 p-3 rounded-lg text-blue-600">
+                  <div className="bg-emerald-100 p-3 rounded-lg text-emerald-600">
                     <i className="fas fa-map-marker-alt"></i>
                   </div>
                   <div>
@@ -62,18 +62,18 @@ export const ContactSection: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="bg-blue-100 p-3 rounded-lg text-blue-600">
+                  <div className="bg-emerald-100 p-3 rounded-lg text-emerald-600">
                     <i className="fas fa-envelope"></i>
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900">
                       <span className="mr-2">✉️📧</span> E‑mail
                     </h4>
-                    <a href="mailto:info@stichtingduurzaamai.nl" className="text-blue-600 hover:underline">info@stichtingduurzaamai.nl</a>
+                    <a href="mailto:info@stichtingduurzaamai.nl" className="text-emerald-600 hover:underline">info@stichtingduurzaamai.nl</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="bg-blue-100 p-3 rounded-lg text-blue-600">
+                  <div className="bg-emerald-100 p-3 rounded-lg text-emerald-600">
                     <i className="fas fa-university"></i>
                   </div>
                   <div>
@@ -102,7 +102,7 @@ export const ContactSection: React.FC = () => {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder={t.contact.form.placeholderName}
-                  className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white"
+                  className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all bg-white"
                 />
               </div>
               <div>
@@ -117,7 +117,7 @@ export const ContactSection: React.FC = () => {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder={t.contact.form.placeholderEmail}
-                  className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white"
+                  className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all bg-white"
                 />
               </div>
               <div>
@@ -132,7 +132,7 @@ export const ContactSection: React.FC = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   placeholder={t.contact.form.placeholderSubject}
-                  className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white"
+                  className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all bg-white"
                 />
               </div>
               <div>
@@ -147,12 +147,12 @@ export const ContactSection: React.FC = () => {
                   value={formData.message}
                   onChange={handleChange}
                   placeholder={t.contact.form.placeholderMessage}
-                  className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all resize-none bg-white"
+                  className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all resize-none bg-white"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors shadow-md flex items-center justify-center gap-2"
+                className="w-full py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-colors shadow-md flex items-center justify-center gap-2"
               >
                 <i className="fas fa-paper-plane"></i>
                 {t.contact.form.send}

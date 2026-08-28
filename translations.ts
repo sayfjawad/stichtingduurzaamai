@@ -68,6 +68,10 @@ export const translations = {
           'Ontwikkelen van open kennisplatformen en tools.',
           'Publiceren van podcasts en media over duurzame AI.',
         ],
+        highlight: {
+          text: 'Als concrete bijdrage aan de maatschappij ontwikkelden wij de Slimme Gemeente Assistent: een open source zoekassistent die vragen van burgers over hun gemeente beantwoordt op basis van officiële bronnen, met een bronverwijzing bij elke bewering. Gratis beschikbaar voor gemeenten en inwoners.',
+          linkText: 'Bekijk de Slimme Gemeente Assistent',
+        },
       },
       income: {
         title: 'Inkomsten',
@@ -141,6 +145,13 @@ export const translations = {
       rights: 'Alle rechten voorbehouden.',
       kvkText: 'Stichting Duurzaam AI is geregistreerd bij de Kamer van Koophandel onder nummer 99418428.',
       missionText: 'Wij zetten ons in voor een veilige, ethische en duurzame AI-toekomst zonder winstoogmerk.',
+      sponsorText: 'Deze website is gemaakt en volledig gesponsord door',
+    },
+    logo: {
+      prefix: 'Stichting',
+      word: 'Duurzaam',
+      accent: 'AI',
+      tagline: 'Duurzaam. Verantwoord. Toekomstgericht.',
     },
     common: {
       name: 'Stichting Duurzaam AI',
@@ -216,6 +227,10 @@ export const translations = {
           'Developing open knowledge platforms and tools.',
           'Publishing podcasts and media about sustainable AI.',
         ],
+        highlight: {
+          text: 'As a concrete contribution to society we built the Smart Municipality Assistant: an open source search assistant that answers citizens\' questions about their municipality based on official sources, with a citation for every claim. Freely available to municipalities and residents.',
+          linkText: 'View the Smart Municipality Assistant',
+        },
       },
       income: {
         title: 'Income',
@@ -289,6 +304,13 @@ export const translations = {
       rights: 'All rights reserved.',
       kvkText: 'Sustainable AI Foundation is registered with the Chamber of Commerce under number 99418428.',
       missionText: 'We are committed to a safe, ethical and sustainable AI future without profit motive.',
+      sponsorText: 'This website was built and fully sponsored by',
+    },
+    logo: {
+      prefix: 'Foundation',
+      word: 'Sustainable',
+      accent: 'AI',
+      tagline: 'Sustainable. Responsible. Future-focused.',
     },
     common: {
       name: 'Sustainable AI Foundation',

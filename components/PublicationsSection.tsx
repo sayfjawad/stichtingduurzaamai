@@ -44,7 +44,7 @@ export const PublicationsSection: React.FC = () => {
               )}
               <div className="p-5 flex-grow flex flex-col">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="inline-flex items-center gap-2 text-blue-600 text-xs font-bold uppercase tracking-wide">
+                  <span className="inline-flex items-center gap-2 text-emerald-600 text-xs font-bold uppercase tracking-wide">
                     <i className={`fas ${pub.icon}`}></i>
                     {t.publications.typeLabels[pub.type]}
                   </span>
@@ -61,7 +61,7 @@ export const PublicationsSection: React.FC = () => {
                         href={pub.link}
                         target={pub.external ? '_blank' : undefined}
                         rel={pub.external ? 'noopener noreferrer' : undefined}
-                        className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700 transition-colors"
+                        className="inline-flex items-center gap-2 text-sm font-bold text-emerald-600 hover:text-emerald-700 transition-colors"
                       >
                         {t.publications.ctaDefault}
                         <i className="fas fa-arrow-right text-xs"></i>

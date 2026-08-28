@@ -50,15 +50,15 @@ export const StatisticsSection: React.FC = () => {
           <>
             <div className="grid sm:grid-cols-3 gap-6">
               <div className="bg-slate-50 rounded-xl border border-slate-100 p-6 text-center">
-                <p className="text-3xl font-extrabold text-blue-600">{formatNumber(stats.traffic.hoofdwebsite.pageviews)}</p>
+                <p className="text-3xl font-extrabold text-emerald-600">{formatNumber(stats.traffic.hoofdwebsite.pageviews)}</p>
                 <p className="text-xs font-bold text-slate-500 uppercase tracking-wide mt-2">{t.statistics.hoofdwebsiteViews}</p>
               </div>
               <div className="bg-slate-50 rounded-xl border border-slate-100 p-6 text-center">
-                <p className="text-3xl font-extrabold text-blue-600">{formatNumber(stats.traffic.training.pageviews)}</p>
+                <p className="text-3xl font-extrabold text-emerald-600">{formatNumber(stats.traffic.training.pageviews)}</p>
                 <p className="text-xs font-bold text-slate-500 uppercase tracking-wide mt-2">{t.statistics.trainingViews}</p>
               </div>
               <div className="bg-slate-50 rounded-xl border border-slate-100 p-6 text-center">
-                <p className="text-3xl font-extrabold text-blue-600">
+                <p className="text-3xl font-extrabold text-emerald-600">
                   {stats.registrations.total} / {stats.registrations.capacity}
                 </p>
                 <p className="text-xs font-bold text-slate-500 uppercase tracking-wide mt-2">{t.statistics.trainingRegistrations}</p>
@@ -75,7 +75,7 @@ export const StatisticsSection: React.FC = () => {
                 href="https://training.stichtingduurzaamai.nl/#statistieken"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700 transition-colors"
+                className="inline-flex items-center gap-2 text-sm font-bold text-emerald-600 hover:text-emerald-700 transition-colors"
               >
                 {t.statistics.cta}
                 <i className="fas fa-arrow-right text-xs"></i>

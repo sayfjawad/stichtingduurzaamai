@@ -28,12 +28,12 @@ export const AmbassadorsSection: React.FC = () => {
               </div>
               <div className="p-4">
                 <h3 className="text-lg font-bold text-slate-900 mb-1">{ambassador.name}</h3>
-                <p className="text-blue-600 text-xs font-medium mb-3">{ambassador.roles[language]}</p>
+                <p className="text-emerald-600 text-xs font-medium mb-3">{ambassador.roles[language]}</p>
                 <a 
                   href={ambassador.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-slate-600 hover:text-blue-600 transition-colors"
+                  className="inline-flex items-center gap-2 text-slate-600 hover:text-emerald-600 transition-colors"
                 >
                   <i className="fab fa-linkedin text-lg"></i>
                   <span className="text-xs font-medium">LinkedIn Profile</span>
