@@ -1,5 +1,21 @@
 [
   {
+    "id": "masterclass-ai-governance-2026",
+    "type": "masterclass",
+    "date": "2026-10-13",
+    "icon": "fa-graduation-cap",
+    "title": {
+      "nl": "Masterclass: AI Governance",
+      "en": "Masterclass: AI Governance"
+    },
+    "description": {
+      "nl": "Een foundationele masterclass over AI Governance: begrijp AI, de risico's en hoe je het verantwoord bestuurt. Voor professionals die AI governance moeten begrijpen — van risk en compliance tot IT en management — zonder AI-specialist te hoeven zijn. Stichting Duurzaam AI organiseert en sponsort deze masterclass. De masterclass wordt in het Engels gegeven; datum en locatie volgen.",
+      "en": "A foundational masterclass on AI Governance: understand AI, its risks, and how to govern it responsibly. For professionals who need to understand AI governance — from risk and compliance to IT and management — without being AI specialists. Stichting Duurzaam AI organises and sponsors this masterclass. The masterclass is delivered in English; date and location to follow."
+    },
+    "link": "https://governance.stichtingduurzaamai.nl",
+    "external": true
+  },
+  {
     "id": "ai-kennisbootcamp-ardennen-2026-08",
     "type": "blog",
     "date": "2026-08-21",

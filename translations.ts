@@ -39,6 +39,7 @@ export const translations = {
       sourceCta: 'Open source',
       typeLabels: {
         training: 'Training',
+        masterclass: 'Masterclass',
         blog: 'Blog',
         vlog: 'Vlog',
         announcement: 'Aankondiging',
@@ -198,6 +199,7 @@ export const translations = {
       sourceCta: 'Open source',
       typeLabels: {
         training: 'Training',
+        masterclass: 'Masterclass',
         blog: 'Blog',
         vlog: 'Vlog',
         announcement: 'Announcement',

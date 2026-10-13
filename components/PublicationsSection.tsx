@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../LanguageContext';
 import publicationsData from '../publications.json';
 
-type PublicationType = 'training' | 'blog' | 'vlog' | 'announcement';
+type PublicationType = 'training' | 'masterclass' | 'blog' | 'vlog' | 'announcement';
 
 interface Publication {
   id: string;
