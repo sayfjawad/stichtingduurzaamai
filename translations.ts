@@ -37,6 +37,9 @@ export const translations = {
       description: 'Hier kondigen we onze trainingen, blogs en vlogs aan. Bekijk wat er nu speelt en wat er binnenkort verschijnt.',
       ctaDefault: 'Meer informatie',
       sourceCta: 'Open source',
+      readArticle: 'Lees het artikel',
+      backToPublications: 'Terug naar publicaties',
+      articleNotFound: 'Dit artikel bestaat niet (meer).',
       typeLabels: {
         training: 'Training',
         masterclass: 'Masterclass',
@@ -197,6 +200,9 @@ export const translations = {
       description: 'This is where we announce our trainings, blogs and vlogs. Check out what\'s happening now and what\'s coming soon.',
       ctaDefault: 'Learn more',
       sourceCta: 'Open source',
+      readArticle: 'Read the article',
+      backToPublications: 'Back to publications',
+      articleNotFound: 'This article does not exist (anymore).',
       typeLabels: {
         training: 'Training',
         masterclass: 'Masterclass',

@@ -11,7 +11,19 @@
     "description": {
       "nl": "Terugblik op de AI Governance masterclass van Stichting Duurzaam AI met Omar Zahawi, onze eerste externe spreker. Governance remt innovatie niet af maar maakt snelheid mogelijk, zoals remmen een auto veilig 200 km/u laten rijden. Vertrouwen is consistentie plus voorspelbaarheid, en AI is van nature geen van beide. Accountability ligt bij het senior management, niet bij IT. ISO/IEC 42001, de EU AI Act en het NIST AI RMF vormen de gemeenschappelijke taal; begin met ISO/IEC 22989 en de AI Risk Repository van MIT. Met een interactieve oefening, goede gesprekken over shadow AI en de praktijk, Nana's Catering en Iraakse kebab.",
       "en": "A look back at the AI Governance masterclass by Stichting Duurzaam AI with Omar Zahawi, our first external speaker. Governance doesn't slow innovation down, it makes speed possible, just as brakes let a car drive 200 km/h safely. Trust is consistency plus predictability, and AI is naturally neither. Accountability sits with senior management, not with IT. ISO/IEC 42001, the EU AI Act and the NIST AI RMF provide a common language; start with ISO/IEC 22989 and MIT's AI Risk Repository. With an interactive exercise, great conversations about shadow AI and real-world practice, Nana's Catering and Iraqi kebab."
-    }
+    },
+    "image": "/images/masterclass-ai-governance/zaal.jpg",
+    "gallery": [
+      "/images/masterclass-ai-governance/omar-presenteert-1.jpg",
+      "/images/masterclass-ai-governance/omar-presenteert-2.jpg",
+      "/images/masterclass-ai-governance/omar-en-gast.jpg",
+      "/images/masterclass-ai-governance/zaal.jpg",
+      "/images/masterclass-ai-governance/catering-1.jpg",
+      "/images/masterclass-ai-governance/catering-2.jpg",
+      "/images/masterclass-ai-governance/catering-3.jpg",
+      "/images/masterclass-ai-governance/catering-4.jpg"
+    ],
+    "article": true
   },
   {
     "id": "masterclass-ai-governance-2026",

@@ -1,0 +1,83 @@
+{
+  "author": "Sayf Jawad",
+  "role": { "nl": "Voorzitter Stichting Duurzaam AI", "en": "Chair, Stichting Duurzaam AI" },
+  "hero": "/images/masterclass-ai-governance/zaal.jpg",
+  "nl": {
+    "title": "AI Governance: de remmen die je sneller laten rijden",
+    "subtitle": "Terugblik op de AI Governance masterclass van Stichting Duurzaam AI met Omar Zahawi",
+    "sections": [
+      { "blocks": [
+        { "p": "Afgelopen zaterdag organiseerde Stichting Duurzaam AI een masterclass over AI Governance, met Omar Zahawi als spreker. Het was de eerste keer dat we een externe spreker hadden, en dat merkte je ook aan ons. We wilden het goed doen. Dat het op een zaterdag was en dat er toch zoveel mensen kwamen, waardeer ik enorm. Zo'n opkomst laat zien hoeveel betrokkenheid er is." }
+      ]},
+      { "heading": "Wat ik dacht dat AI Governance was", "blocks": [
+        { "p": "Ik moet eerlijk zijn. Voor de masterclass dacht ik dat AI Governance vooral over AI security ging. Over tools, over afschermen, over technische maatregelen. Binnen een uur bleek dat dat er ver naast zat." },
+        { "images": ["omar-presenteert-1"] },
+        { "p": "Omar begon met een simpele vraag: waar zijn de remmen van een auto voor? Bijna iedereen zei: om te stoppen. Maar zou je 200 km/u rijden in een auto zonder remmen? Nee. Remmen zorgen ervoor dat je veilig hard kunt rijden. Zo werkt governance ook. Het remt innovatie niet af, het maakt snelheid mogelijk." }
+      ]},
+      { "heading": "Vertrouwen = consistentie + voorspelbaarheid", "blocks": [
+        { "p": "De kern van het verhaal was vertrouwen. Volgens Omar bestaat vertrouwen uit twee dingen. Consistentie: elke keer hetzelfde doen, ook als niemand kijkt. Voorspelbaarheid: mensen weten van tevoren wat je gaat doen. AI is van nature allebei níet. Stel twee keer dezelfde vraag en je krijgt twee verschillende antwoorden. Governance is het managementsysteem dat dat vertrouwen alsnog organiseert." },
+        { "p": "Wat me daarbij echt bijbleef: AI is niet één ding. Het is een stack van lagen: compute, platform, data, het model, de applicatie en uiteindelijk de mensen die het gebruiken. Een probleem in een lagere laag werkt door naar alles erboven. Voor elke laag stel je dezelfde drie vragen:" },
+        { "ul": ["Wat doen we? (scope, tools, omgeving)", "Wie beslist? (wie is accountable)", "Wat gebeurt er als het misgaat? (risicomanagement)"] }
+      ]},
+      { "heading": "Accountability is niet hetzelfde als responsibility", "blocks": [
+        { "p": "Dit leverde de meeste discussie op, en terecht. Teams die iets uitvoeren zijn responsible. De eindverantwoordelijkheid, de accountability, ligt bij het senior management. En nee, die leg je niet bij de IT-afdeling. Ook als je een derde partij inschakelt, blijf jij als organisatie aanspreekbaar op de gevolgen." },
+        { "images": ["omar-presenteert-2"] },
+        { "p": "Een ander belangrijk punt: zonder mandaat van de directie begin je niet aan governance. Eerst moet het management zijn risk appetite bepalen: hoeveel risico zijn we bereid te nemen voor welke waarde? Pas daarna kun je zinvolle keuzes maken." }
+      ]},
+      { "heading": "ISO-normen als gemeenschappelijke taal", "blocks": [
+        { "p": "Het praktische deel ging over frameworks. Omar noemde er drie die er voor AI echt toe doen: ISO/IEC 42001 (het AI-managementsysteem), de EU AI Act en het NIST AI Risk Management Framework. Die vertalen ethische principes op hoog niveau naar concrete stappen en controls." },
+        { "p": "Zijn advies om te beginnen: lees ISO/IEC 22989. Dat is de norm met de begrippen en definities rond AI. Ongeveer 70 pagina's, gratis te downloaden. Zijn argument: als je de taal niet spreekt, hoor je niet bij het team. Dat herken ik helemaal. Security, platform engineers en management praten vaak langs elkaar heen. Een AI governance-specialist is in de praktijk vooral een vertaler." },
+        { "p": "Voor het risicodeel liet hij de AI Risk Repository van MIT zien. Je hoeft geen risico's te verzinnen: je kiest de risico's die relevant zijn voor jouw context en koppelt daar de juiste controls aan. Daarna gingen we zelf aan de slag met een interactieve oefening, waarin we als groep een \"stad\" moesten beschermen met een beperkt budget. Confronterend leuk. We hadden niet alles goed." },
+        { "images": ["omar-en-gast"] }
+      ]},
+      { "heading": "Lekker eten en goede gesprekken", "blocks": [
+        { "p": "Een masterclass bij ons is niet compleet zonder goed eten. We hebben weer mogen genieten van de heerlijkheden van Nana's Catering. In de pauzes ontstonden mooie gesprekken over de praktijk: hoe pak je dit aan bij een klein bedrijf? En bij een ziekenhuis? Wat doe je met shadow AI? Precies die uitwisseling maakt zo'n dag waardevol. En uiteraard sloten we af met Iraakse kebab. Beter kan een zaterdag niet eindigen." },
+        { "images": ["catering-1", "catering-2", "catering-3", "catering-4"] }
+      ]},
+      { "heading": "Waarom we dit doen", "blocks": [
+        { "p": "Stichting Duurzaam AI zet zich in voor veilige, ethische en verantwoorde AI in Nederland en Europa. Dat doen we met trainingen zoals deze, onze bootcamps en open source-projecten zoals de Slimme Gemeente Assistent. AI raakt steeds meer van wat we elke dag doen. Dan is het belangrijk dat niet alleen bedrijven, maar ook professionals en burgers begrijpen hoe je het verantwoord inzet." },
+        { "p": "Omar, nogmaals heel erg bedankt voor je tijd, je kennis en je geduld met al onze vragen. En iedereen die erbij was: bedankt voor jullie inzet en enthousiasme. Feedback is altijd welkom, want we willen het de volgende keer nog beter doen." },
+        { "p": "Tot de volgende masterclass!" }
+      ]}
+    ]
+  },
+  "en": {
+    "title": "AI Governance: the brakes that let you drive faster",
+    "subtitle": "A look back at the AI Governance masterclass by Stichting Duurzaam AI with Omar Zahawi",
+    "sections": [
+      { "blocks": [
+        { "p": "Last Saturday, Stichting Duurzaam AI organised a masterclass on AI Governance, with Omar Zahawi as speaker. It was the first time we had an external speaker, and we felt it. We wanted to do it right. That it was on a Saturday and so many people still came is something I truly appreciate. Such a turnout shows how much commitment there is." }
+      ]},
+      { "heading": "What I thought AI Governance was", "blocks": [
+        { "p": "I have to be honest. Before the masterclass I thought AI Governance was mostly about AI security: tools, shielding, technical measures. Within an hour it was clear I was far off." },
+        { "images": ["omar-presenteert-1"] },
+        { "p": "Omar started with a simple question: what are the brakes of a car for? Almost everyone said: to stop. But would you drive 200 km/h in a car without brakes? No. Brakes let you drive fast safely. Governance works the same way. It doesn't slow innovation down, it makes speed possible." }
+      ]},
+      { "heading": "Trust = consistency + predictability", "blocks": [
+        { "p": "The core of the story was trust. According to Omar, trust consists of two things. Consistency: doing the same thing every time, even when nobody is watching. Predictability: people know in advance what you are going to do. AI is by nature neither. Ask the same question twice and you get two different answers. Governance is the management system that organises that trust after all." },
+        { "p": "What really stuck with me: AI is not one thing. It is a stack of layers: compute, platform, data, the model, the application and finally the people who use it. A problem in a lower layer works its way through to everything above it. For every layer you ask the same three questions:" },
+        { "ul": ["What do we do? (scope, tools, environment)", "Who decides? (who is accountable)", "What happens when it goes wrong? (risk management)"] }
+      ]},
+      { "heading": "Accountability is not the same as responsibility", "blocks": [
+        { "p": "This sparked the most discussion, and rightly so. Teams that carry something out are responsible. The ultimate answerability, the accountability, lies with senior management. And no, you don't hand that to the IT department. Even if you engage a third party, your organisation remains answerable for the consequences." },
+        { "images": ["omar-presenteert-2"] },
+        { "p": "Another important point: without a mandate from the board you don't start on governance. Management must first set its risk appetite: how much risk are we willing to take for what value? Only then can you make meaningful choices." }
+      ]},
+      { "heading": "ISO standards as a common language", "blocks": [
+        { "p": "The practical part was about frameworks. Omar named three that really matter for AI: ISO/IEC 42001 (the AI management system), the EU AI Act and the NIST AI Risk Management Framework. They translate high-level ethical principles into concrete steps and controls." },
+        { "p": "His advice for getting started: read ISO/IEC 22989. It is the standard with the terms and definitions around AI. About 70 pages, free to download. His argument: if you don't speak the language, you don't belong on the team. I recognise that completely. Security, platform engineers and management often talk past each other. An AI governance specialist is, in practice, mostly a translator." },
+        { "p": "For the risk part he showed MIT's AI Risk Repository. You don't have to invent risks: you pick the ones relevant to your context and attach the right controls. Then we got to work ourselves in an interactive exercise in which, as a group, we had to protect a \"city\" on a limited budget. Confrontingly fun. We didn't get everything right." },
+        { "images": ["omar-en-gast"] }
+      ]},
+      { "heading": "Good food and good conversations", "blocks": [
+        { "p": "A masterclass with us isn't complete without good food. Once again we enjoyed the delicacies of Nana's Catering. During the breaks, great conversations came up about practice: how do you tackle this in a small company? And in a hospital? What do you do about shadow AI? That exchange is exactly what makes a day like this valuable. And of course we finished with Iraqi kebab. A Saturday can't end better." },
+        { "images": ["catering-1", "catering-2", "catering-3", "catering-4"] }
+      ]},
+      { "heading": "Why we do this", "blocks": [
+        { "p": "Stichting Duurzaam AI works for safe, ethical and responsible AI in the Netherlands and Europe. We do this with trainings like this one, our bootcamps and open-source projects such as the Smart Municipality Assistant. AI touches more and more of what we do every day. It is therefore important that not only companies, but also professionals and citizens understand how to use it responsibly." },
+        { "p": "Omar, once again thank you very much for your time, your knowledge and your patience with all our questions. And everyone who was there: thank you for your commitment and enthusiasm. Feedback is always welcome, because we want to do even better next time." },
+        { "p": "Until the next masterclass!" }
+      ]}
+    ]
+  }
+}

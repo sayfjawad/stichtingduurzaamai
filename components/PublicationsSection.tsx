@@ -12,6 +12,8 @@ interface Publication {
   title: { nl: string; en: string };
   description: { nl: string; en: string };
   image?: string;
+  gallery?: string[];
+  article?: boolean;
   link?: string;
   repo?: string;
   external?: boolean;
@@ -33,7 +35,17 @@ export const PublicationsSection: React.FC = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {publications.map((pub) => (
-            <div key={pub.id} className="group bg-white rounded-xl overflow-hidden border border-slate-100 hover:shadow-md transition-shadow flex flex-col">
+            <div
+              key={pub.id}
+              className={`group bg-white rounded-xl overflow-hidden border border-slate-100 hover:shadow-md transition-shadow flex flex-col${pub.article ? ' cursor-pointer' : ''}`}
+              {...(pub.article ? {
+                onClick: () => { window.location.hash = `#/publicatie/${pub.id}`; },
+                onKeyDown: (e: React.KeyboardEvent) => { if (e.key === 'Enter') window.location.hash = `#/publicatie/${pub.id}`; },
+                tabIndex: 0,
+                role: 'link',
+                'aria-label': pub.title[language],
+              } : {})}
+            >
               {pub.image && (
                 <img
                   src={pub.image}
@@ -54,6 +66,29 @@ export const PublicationsSection: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">{pub.title[language]}</h3>
                 <p className="text-sm text-slate-600 mb-4 flex-grow">{pub.description[language]}</p>
+                {pub.gallery && (
+                  <div className="grid grid-cols-4 gap-2 mb-4">
+                    {pub.gallery.map((src, i) => (
+                      <a key={src} href={pub.article ? `#/publicatie/${pub.id}` : src} {...(pub.article ? {} : { target: '_blank', rel: 'noopener noreferrer' })}>
+                        <img
+                          src={src}
+                          alt={`${pub.title[language]} (${i + 1})`}
+                          loading="lazy"
+                          className="w-full h-14 object-cover rounded hover:opacity-80 transition-opacity"
+                        />
+                      </a>
+                    ))}
+                  </div>
+                )}
+                {pub.article && (
+                  <a
+                    href={`#/publicatie/${pub.id}`}
+                    className="inline-flex items-center gap-2 text-sm font-bold text-emerald-600 hover:text-emerald-700 transition-colors"
+                  >
+                    {t.publications.readArticle}
+                    <i className="fas fa-arrow-right text-xs"></i>
+                  </a>
+                )}
                 {(pub.link || pub.repo) && (
                   <div className="flex items-center gap-4">
                     {pub.link && (
