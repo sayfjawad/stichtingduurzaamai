@@ -44,6 +44,14 @@ export const ArticlePage: React.FC<{ id: string }> = ({ id }) => {
           {s.heading && <h2 className="text-xl font-bold text-slate-900 mb-3">{s.heading}</h2>}
           {s.blocks.map((b: any, j: number) => {
             if (b.p) return <p key={j} className="text-slate-700 leading-relaxed mb-4">{b.p}</p>;
+            if (b.link) return (
+              <p key={j} className="mb-4">
+                <a href={b.link.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold text-emerald-600 hover:text-emerald-700">
+                  <i className="fab fa-youtube"></i>
+                  {b.link.label}
+                </a>
+              </p>
+            );
             if (b.ul) return (
               <ul key={j} className="list-disc pl-6 mb-4 text-slate-700 space-y-1">
                 {b.ul.map((li: string) => <li key={li}>{li}</li>)}

@@ -1,0 +1,184 @@
+{
+  "author": "Sayf Jawad",
+  "role": {
+    "nl": "Voorzitter Stichting Duurzaam AI",
+    "en": "Chair, Stichting Duurzaam AI"
+  },
+  "hero": "/images/foojay-podcast/interview-sayf-jfall.jpg",
+  "nl": {
+    "title": "Een microfoon onder mijn neus: waar Stichting Duurzaam AI voor staat",
+    "subtitle": "Op J-Fall mocht ik de Foojay Podcast vertellen over onze ervaringen, onze zorgen en waarom we dit doen",
+    "sections": [
+      {
+        "blocks": [
+          {
+            "p": "Op J-Fall in Ede kreeg ik ineens een microfoon onder mijn neus. Frank Delporte van de Foojay Podcast vroeg ontwikkelaars wat AI met hun werk doet, en hij wilde ook weten wat onze stichting eigenlijk doet. Ik vond het een mooie kans. Je ziet op de foto dat we er ook plezier in hadden."
+          },
+          {
+            "p": "De aflevering heet \"Are We Still Writing Code?\" en staat nu op YouTube. Mijn deel begint rond minuut 31:40. Het gesprek is in het Engels, dus hier vertel ik het in mijn eigen woorden."
+          },
+          {
+            "link": {
+              "url": "https://www.youtube.com/watch?v=WHT-l1YlMVA&t=1900s",
+              "label": "Bekijk het interview op YouTube"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Kansen én risico's",
+        "blocks": [
+          {
+            "p": "Bij duurzaam denken veel mensen meteen aan energie. Dat hoort erbij, maar onze focus ligt vooral op de samenleving: wat doet AI met onze gemeenschappen? Zo'n drie jaar geleden zag ik dat dit heel ontwrichtend kon worden en dat we het op een verantwoorde manier moeten doen."
+          },
+          {
+            "p": "Wie krijgt er toegang? Gaat dat straks bepalen wie er succesvoller is dan een ander? Dat vind ik een echt risico. We zijn een non-profit en we willen mensen over de drempel helpen: begrijpen wat het is, het gebruiken en er anderen mee helpen."
+          }
+        ]
+      },
+      {
+        "heading": "Dansende katten",
+        "blocks": [
+          {
+            "p": "Iedereen kent de filmpjes van dansende katten. Ik zeg niet dat je dat niet mag doen. Ontspanning is ook belangrijk. Maar ik zou graag willen weten wat zo'n filmpje werkelijk kost. Hoeveel stroom heb ik verbrand? Hoeveel zoet water heb ik gebruikt dat ook ergens anders voor had kunnen dienen? Als je dat weet, ga je er vanzelf bewuster mee om."
+          },
+          {
+            "p": "Hetzelfde geldt voor wat je erin stopt. Mensen delen heel makkelijk gevoelige informatie met een chatvenster. Dat raakt onze veiligheid."
+          }
+        ]
+      },
+      {
+        "heading": "Europa kan dit zelf",
+        "blocks": [
+          {
+            "p": "Nu is veel nog goedkoop of gratis. Dat blijft niet zo. Als we in Europa onze eigen technologie niet ontwikkelen en geen grip hebben op prijs en toegang, dan is dat ook een geopolitiek risico."
+          },
+          {
+            "p": "En ik geloof geen seconde dat we hier de slimme, talentvolle mensen niet hebben. Die hebben we. We moeten ze alleen meer aandacht en de kans geven. Wij kunnen dit. Ik kan dit, jij kan dit, iedereen kan dit."
+          }
+        ]
+      },
+      {
+        "heading": "Tweedehands GPU's",
+        "blocks": [
+          {
+            "p": "Eerlijk is eerlijk: ik kan de prijzen van nieuwe hardware niet betalen. Dus ben ik anders gaan nadenken over wat duurzaam is. Ik koop tweedehands apparatuur uit China en het Verenigd Koninkrijk, zoals oude V100-servergrafische kaarten die speciaal voor AI zijn gemaakt, en zet het zelf in elkaar. Zo kan ik toch aan de slag."
+          },
+          {
+            "p": "Kost iets nieuw 6.000 euro terwijl het anders ook voor 500 euro kan? Reken dan eens uit hoeveel elektriciteit je voor dat verschil koopt, over welke periode, en of je het met anderen kunt delen. We moeten die oplossingen zoeken voordat de risico's er zijn, niet erna."
+          }
+        ]
+      },
+      {
+        "heading": "Wat de anderen zeiden",
+        "blocks": [
+          {
+            "p": "Na mijn stukje ging het gesprek in de studio verder met Anton Arhipov van JetBrains. Hij maakte het nog breder: dit gaat niet alleen over duurzaamheid, maar ook over geopolitiek, economie en security. Over gratis diensten zei hij dat jij dan zelf het product bent. En hij was ook kritisch: zelf modellen draaien kost hardware, stroom en onderhoud, en voor veel mensen is een API op dit moment goedkoper."
+          },
+          {
+            "p": "Daar heeft hij een punt. Lokaal is niet automatisch beter. Maar als je privacygevoelige data uit de cloud wilt houden, kan het wel de juiste keuze zijn. Dat moet je kunnen afwegen, en om af te wegen heb je kennis nodig."
+          }
+        ]
+      },
+      {
+        "heading": "Doe mee",
+        "blocks": [
+          {
+            "p": "Als we nu beginnen om AI goed en efficiënt te gebruiken, en ons eigen talent laten groeien, dan kunnen we een voorsprong nemen door goed te doen. Dat maakt onze samenleving duurzamer en sterker. Daar staan we voor."
+          },
+          {
+            "p": "Frank, bedankt voor het gesprek en voor de ruimte om ons verhaal te vertellen. Wil je meedenken, meedoen of gewoon een vraag stellen? Je vindt ons op stichtingduurzaamai.nl."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "title": "A microphone under my nose: what Stichting Duurzaam AI stands for",
+    "subtitle": "At J-Fall I got to tell the Foojay Podcast about our experiences, our concerns and why we do this",
+    "sections": [
+      {
+        "blocks": [
+          {
+            "p": "At J-Fall in Ede I suddenly had a microphone under my nose. Frank Delporte of the Foojay Podcast was asking developers what AI is doing to their work, and he also wanted to know what our foundation actually does. I saw it as a great opportunity. You can tell from the photo that we enjoyed it too."
+          },
+          {
+            "p": "The episode is called \"Are We Still Writing Code?\" and is now on YouTube. My part starts at around 31:40. Here I tell it again in my own words."
+          },
+          {
+            "link": {
+              "url": "https://www.youtube.com/watch?v=WHT-l1YlMVA&t=1900s",
+              "label": "Watch the interview on YouTube"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "Opportunities and risks",
+        "blocks": [
+          {
+            "p": "When people hear sustainable, many think of energy straight away. That is part of it, but our focus is mostly on society: what does AI do to our communities? About three years ago I saw that this could be very disruptive and that we need to do it responsibly."
+          },
+          {
+            "p": "Who gets access? Is that going to decide who is more successful than others? To me that is a real risk. We are a non-profit and we want to help people over the threshold: understanding what it is, using it and helping others with it."
+          }
+        ]
+      },
+      {
+        "heading": "Dancing cats",
+        "blocks": [
+          {
+            "p": "Everybody knows the videos of dancing cats. I am not saying you shouldn't make them. Entertainment matters too. But I would love to know what such a video really costs. How much electricity did I burn? How much fresh water did I use that could have served something else? Once you know that, you naturally become more thoughtful about it."
+          },
+          {
+            "p": "The same goes for what you put into it. People very easily share sensitive information with a chat window. That affects our security."
+          }
+        ]
+      },
+      {
+        "heading": "Europe can do this",
+        "blocks": [
+          {
+            "p": "Right now a lot is still cheap or free. That won't last. If we don't cultivate our own technology in Europe and have no control over its price or access, that is a geopolitical risk as well."
+          },
+          {
+            "p": "And I don't believe for a second that we don't have the smart, talented people here. We do. We just need to give them more attention and the opportunity. We can do this. I can do this, you can do this, anybody can."
+          }
+        ]
+      },
+      {
+        "heading": "Second-hand GPUs",
+        "blocks": [
+          {
+            "p": "To be honest: I cannot pay the prices of new hardware. So I rethought what sustainable means. I bring in second-hand equipment from China and the United Kingdom, such as old V100 server GPUs built for AI, and put it together myself. That way I can still get to work."
+          },
+          {
+            "p": "Does something cost 6,000 euros new when it could also be done for 500? Then work out how much electricity that difference buys, over what period, and whether you can share it with others. We need to find those solutions before the risks arrive, not after."
+          }
+        ]
+      },
+      {
+        "heading": "What the others said",
+        "blocks": [
+          {
+            "p": "After my part, the conversation in the studio continued with Anton Arhipov of JetBrains. He widened it further: this is not only about sustainability, but also geopolitics, economy and security. About free services he said that then you are the product. He was critical too: running your own models costs hardware, power and maintenance, and for many people an API is cheaper right now."
+          },
+          {
+            "p": "He has a point. Local is not automatically better. But if you want to keep privacy-sensitive data out of the cloud, it can be the right choice. You need to be able to weigh that, and weighing it takes knowledge."
+          }
+        ]
+      },
+      {
+        "heading": "Join us",
+        "blocks": [
+          {
+            "p": "If we start now by using AI properly and efficiently, and by growing our own talent, we can get a head start by doing good. That makes our society more sustainable and stronger. That is what we stand for."
+          },
+          {
+            "p": "Frank, thank you for the conversation and for the room to tell our story. Would you like to think along, take part or just ask a question? You can find us at stichtingduurzaamai.nl."
+          }
+        ]
+      }
+    ]
+  }
+}

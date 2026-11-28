@@ -1,5 +1,21 @@
 [
   {
+    "id": "interview-foojay-podcast-jfall-2026-11",
+    "type": "blog",
+    "date": "2026-11-28",
+    "icon": "fa-microphone",
+    "title": {
+      "nl": "Een microfoon onder mijn neus: waar Stichting Duurzaam AI voor staat",
+      "en": "A microphone under my nose: what Stichting Duurzaam AI stands for"
+    },
+    "description": {
+      "nl": "Op J-Fall werd ik geïnterviewd door de Foojay Podcast. Over kansen en risico's van AI, wie er toegang krijgt, wat dansende katten kosten, waarom Europa dit zelf kan en hoe ik met tweedehands GPU's aan de slag ga.",
+      "en": "At J-Fall I was interviewed by the Foojay Podcast. On the opportunities and risks of AI, who gets access, what dancing cats cost, why Europe can do this itself and how I get to work with second-hand GPUs."
+    },
+    "image": "/images/foojay-podcast/interview-sayf-jfall.jpg",
+    "article": true
+  },
+  {
     "id": "terugblik-masterclass-ai-governance-2026-11",
     "type": "blog",
     "date": "2026-11-24",
