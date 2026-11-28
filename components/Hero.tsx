@@ -1,7 +1,8 @@
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
 
-const PHOTO = '/images/masterclass-ai-governance/zaal.jpg';
+// gezichten zijn vervangen door AI-gegenereerde gezichten (privacy van de deelnemers)
+const PHOTO = `${(import.meta as any).env.BASE_URL}images/hero-masterclass-anoniem.jpg`;
 
 // inline iconen, gelijk aan de roll-upbanner
 const ICONS = {
@@ -39,7 +40,12 @@ export const Hero: React.FC = () => {
             </div>
           </div>
         </div>
-        <img src={PHOTO} alt={t.hero.imageAlt} className="w-full h-72 sm:h-96 lg:h-full lg:min-h-[540px] object-cover" />
+        <figure className="relative h-72 sm:h-96 lg:h-auto lg:min-h-[540px]">
+          <img src={PHOTO} alt={t.hero.imageAlt} className="absolute inset-0 w-full h-full object-cover" />
+          <figcaption className="absolute bottom-2 right-2 px-2 py-1 rounded bg-slate-900/70 text-[11px] text-white">
+            {t.hero.imageCaption}
+          </figcaption>
+        </figure>
       </section>
 
       <section className="bg-white py-12">
