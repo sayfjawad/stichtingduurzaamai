@@ -10,6 +10,7 @@ import { PolicySection } from './components/PolicySection';
 import { AmbassadorsSection } from './components/AmbassadorsSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
+import { JoinBand } from './components/JoinBand';
 import { ArticlePage } from './components/ArticlePage';
 import { LanguageProvider } from './LanguageContext';
 
@@ -39,6 +40,11 @@ const App: React.FC = () => {
   return (
     <LanguageProvider>
       <div className="min-h-screen flex flex-col">
+        {(import.meta as any).env.VITE_VOORBEELD && (
+          <div className="bg-amber-300 text-slate-900 text-center text-sm font-semibold px-4 py-2">
+            Voorbeeld van de nieuwe stijl, ter beoordeling door het bestuur. Nog niet definitief.
+          </div>
+        )}
         <Header />
         <main className="flex-grow">
           {articleId ? <ArticlePage id={articleId} /> : (<>
@@ -50,6 +56,7 @@ const App: React.FC = () => {
           <AmbassadorsSection />
           <AnbiSection />
           <ContactSection />
+          <JoinBand />
           </>)}
         </main>
         <Footer />
