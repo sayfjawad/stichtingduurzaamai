@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Of de naam van je hoofdbranch
+  workflow_dispatch:  # handmatig, bv. na een wijziging op nieuwe-stijl
 
 permissions:
   contents: write
@@ -25,6 +26,18 @@ jobs:
         run: |
           npm install
           npm run build
+
+      - name: Voorbeeld van branch nieuwe-stijl onder /voorbeeld/ 👀
+        continue-on-error: true  # mag de gewone site nooit blokkeren
+        run: |
+          if git fetch --depth=1 origin nieuwe-stijl; then
+            git worktree add "$RUNNER_TEMP/voorbeeld" FETCH_HEAD
+            cd "$RUNNER_TEMP/voorbeeld"
+            npm install
+            VITE_VOORBEELD=1 npm run build -- --base=/voorbeeld/
+            sed -i 's|<head>|<head><meta name="robots" content="noindex, nofollow">|' dist/index.html
+            cp -r dist "$GITHUB_WORKSPACE/dist/voorbeeld"
+          fi
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
